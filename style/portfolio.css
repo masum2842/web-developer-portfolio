@@ -7,7 +7,7 @@ body{
 .nav-text-orang{
     color: #ff4500;    
 }
-.nav-btn-orang{
+.btn-primary{
     border-radius: 5px;
     background-color:  #ff4500;
     border: 0;
@@ -25,15 +25,19 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-tital{
     color:#000000;
     font-size: 45px;
     font-weight: 800;
+ 
+
 }
 nav > ul {
     display: flex;
     align-items: center;
+    
 }
 ul li{
     list-style: none;
@@ -44,4 +48,19 @@ nav a {
     color:grey;
 }
 
- 
+/* header related styels */
+
+.header{
+    background-color: rgba(231, 210, 167, 0.344);
+}
+.banner{
+    padding: 30px 30px 30px 170px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.banner .profail-pic{
+    width: 500px;
+
+}
