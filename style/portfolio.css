@@ -91,10 +91,14 @@ nav a {
     margin-bottom: 20px;
 }
 .banner-descriftion{
-    /* font-size: 20px; */
+    font-size: 20px;
 }
 
 /* main section styels */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 
 /* about section styels */
@@ -105,3 +109,21 @@ nav a {
     background: #e5d8d2;
     margin: 130px 0;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    color: grey;
+    /* padding-bottom: 0px; */
+}
+
+.info-description{
+    font-weight: bold;
+    /* padding-top: 2px; */
+}
+
