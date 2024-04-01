@@ -15,7 +15,18 @@ body{
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
+}
+.section-title{
+    color: #0d0a0a;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
 
+.section-description{
+    color: gray;
+    text-align: center;
+    font-size: 18px;
 }
 
 
@@ -52,15 +63,45 @@ nav a {
 
 .header{
     background-color: rgba(231, 210, 167, 0.344);
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 170px;
+    padding: 30px 30px 0px 170px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }
-
+.banner-containt{
+    max-width: 500;
+}
 .banner .profail-pic{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0px;   
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-descriftion{
+    /* font-size: 20px; */
+}
 
+/* main section styels */
+
+
+/* about section styels */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #e5d8d2;
+    margin: 130px 0;
 }
