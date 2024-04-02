@@ -108,7 +108,7 @@ main{
 
 .about{
     padding: 130px;
-    border-radius: 10px;
+    border-radius: 5px;
     background: rgba(231, 210, 167, 0.344);
     margin: 130px 0;
 }
@@ -201,7 +201,28 @@ main{
 
 footer{
     display: flex;
+    gap: 100px;
     background-color:  rgba(231, 210, 167, 0.344);
     padding: 130px 200px;
     margin-top: 100px;
+}
+ .social-links a{
+    margin-right: 25px;
+ }
+
+
+.footer-colum{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+ textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
 }
