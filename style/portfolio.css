@@ -153,11 +153,45 @@ main{
 }
 
 /* resume section styels */
+
 .resume-colum-title{
     color: rgb(50, 47, 47);
     font-size: 30px;
     font-weight: 700;
+    padding: 5px;
 }
 
+.resume-section{
+    display: flex;
+    gap: 50px;
+}
 
+.resum-item-title{
+    color: rgb(42, 39, 39);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
+.resum-item-institute,.resum-item-description{
+    color: grey;
+}
+
+.resum-item-description{
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+}
+
+.resum-item-institute{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.resume-section hr{
+    margin: 30px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 70px;
+}
